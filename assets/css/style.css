@@ -1,0 +1,195 @@
+/* HW1 Recommended Assignment */
+#home {
+    text-decoration: none; /* removing underline of link */
+}
+#nav_name {
+    display: inline;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px;
+}
+.nav_menu {
+    text-decoration: none; /* removing underline for link */
+}
+.nav_menu_container {
+    display: inline;
+    color: #777777;
+}
+.content_sheet {
+    position: relative;
+    min-height: 90vh;
+    max-width: 960px;
+    margin: 20px auto 0 auto;
+    background-color:#ffffff;
+    border-color: #dddddd;
+    color:#777777;
+  }
+header {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0 0 2px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+footer {
+    background-color:#666666;
+    line-height: 60px;
+    height: 40px;
+    color: #aaaaaa;
+
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 8px 0 0 0;
+    
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+a, a:visited {
+    color: inherit;
+}
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.nav_menu_position {
+    float: right;
+}
+h3, h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+.nav_menu_container, p, form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.heading1 {
+    color:#4aaaa5;
+    padding: 20px;
+    margin-top: 90px;
+}
+#nav_name, #home, .nav_menu {
+    line-height: 60px;
+}
+hr {
+    display: block;
+    margin-top: -18px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+}
+#image1, #image2, #image8 {
+    display: inline;
+    margin-right: 20px;
+    float: left;
+}
+#image3, #image4, #image5, #image6, #image7 {
+    position: relative;
+    display: inline;
+    margin: 20px 15px 20px 20px;
+}
+#image3_banner, #image4_banner, #image5_banner, #image6_banner {
+    display: inline;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin-left: -304px;
+    margin-top: 158px;
+}
+#image7_banner {
+    display: inline;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin-left: -300px; /* last banner -300px not -304px */
+    margin-top: 158px;
+}
+.index_paragraph, .about_me_paragraph {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+form {
+    margin-left: 20px;
+    margin-right: 35px;
+}
+.input_example, .text_message {
+    color: #777777;
+    width: 100%;
+    padding-left: 10px;
+}
+#input_name {
+    z-index: 0;
+}
+input {
+    height: 40px;
+}
+.submit_button_label {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 110px;
+}
+#portfolio_sample1, #portfolio_sample2,
+ #portfolio_sample3, #portfolio_sample4,
+  #portfolio_sample5 {
+    text-decoration: none; /* removing underline of link */
+}
+@media only screen and (max-width: 980px) {
+    .content_sheet {
+    max-width: 680px;
+    margin: 20px auto 0 20px;
+    }
+    nav {
+    max-width: 680px;
+    margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .content_sheet {
+    max-width: 664px;
+    margin: 20px auto 0 auto;
+    }
+    nav {
+    max-width: 664px;
+    margin-left: auto;
+    }
+    #image3, #image4, #image5, #image6, #image7 {
+        margin: 20px 0px 0px 20px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .content_sheet {
+    max-width: 340px;
+    margin: 150px auto 0 auto;
+    }
+    #nav_name {
+        width: 100%;
+        position: fixed;
+        margin-top: 0;
+        text-align: center;
+        padding: 0;
+    }
+    .nav_menu_position {
+        background-color: #ffffff;
+        border-color: #cccccc;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        width: 100%;
+        position: static;
+        margin-top: 60px;
+        text-align: center;
+        padding: 0;
+    }
+    #image1, #image2, #image8 {
+        width: 300px;
+        margin-left: 0;
+    }
+    .index_paragraph, .about_me_paragraph {
+        margin: 20px;
+    }
+}
