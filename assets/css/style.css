@@ -1,4 +1,4 @@
-/* HW1 Recommended Assignment */
+/* HW2 responsive portfolio */
 #home {
     text-decoration: none; /* removing underline of link */
 }
@@ -85,12 +85,12 @@ hr {
     margin-right: 20px;
     float: left;
 }
-#image3, #image4, #image5, #image6, #image7 {
+#image3 {
     position: relative;
     display: inline;
-    margin: 20px 15px 20px 20px;
+    margin: 20px 0 20px 20px;
 }
-#image3_banner, #image4_banner, #image5_banner, #image6_banner {
+#image3_banner {
     display: inline;
     position: absolute;
     background-color: #4aaaa5;
@@ -100,6 +100,56 @@ hr {
     margin-left: -304px;
     margin-top: 158px;
 }
+#image4 {
+    position: relative;
+    display: inline;
+    margin: 20px 0 20px 40px;
+}
+#image4_banner {
+    display: inline;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin-left: 364px;
+    margin-top: -70px;
+}
+#image5 {
+    position: relative;
+    display: inline;
+    margin: 20px 0 20px 20px;
+}
+#image5_banner {
+    display: inline;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin-left: -304px;
+    margin-top: 158px;
+}
+#image6 {
+    position: relative;
+    display: inline;
+    margin: 20px 0 20px 40px;
+}
+#image6_banner {
+    display: inline;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin-left: 364px;
+    margin-top: -70px;
+}
+#image7 {
+    position: relative;
+    display: inline;
+    margin: 20px 0 20px 20px;
+}
 #image7_banner {
     display: inline;
     position: absolute;
@@ -107,7 +157,7 @@ hr {
     color: #ffffff;
     text-align: center;
     width: 300px;
-    margin-left: -300px; /* last banner -300px not -304px */
+    margin-left: -300px;
     margin-top: 158px;
 }
 .index_paragraph, .about_me_paragraph {
@@ -137,7 +187,7 @@ input {
 #portfolio_sample1, #portfolio_sample2,
  #portfolio_sample3, #portfolio_sample4,
   #portfolio_sample5 {
-    text-decoration: none; /* removing underline of link */
+    text-decoration: none; /*removing underline of link */
 }
 @media only screen and (max-width: 980px) {
     .content_sheet {
@@ -160,6 +210,26 @@ input {
     }
     #image3, #image4, #image5, #image6, #image7 {
         margin: 20px 0px 0px 20px;
+    }
+    #image4_banner {
+        display: inline;
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        width: 300px;
+        margin-left: 344px;
+        margin-top: -71px;
+    }
+    #image6_banner {
+        display: inline;
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        width: 300px;
+        margin-left: 344px;
+        margin-top: -71px;
     }
 }
 @media only screen and (max-width: 640px) {
@@ -188,6 +258,26 @@ input {
     #image1, #image2, #image8 {
         width: 300px;
         margin-left: 0;
+    }
+    #image3_banner, #image4_banner, #image5_banner, #image6_banner {
+        display: inline;
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+        margin-top: -70px;
+    }
+    #image7_banner {
+        display: inline;
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        width: 300px;
+        margin-left: -300px;
+        margin-top: 158px;
     }
     .index_paragraph, .about_me_paragraph {
         margin: 20px;
